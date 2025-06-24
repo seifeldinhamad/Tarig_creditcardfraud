@@ -1,18 +1,5 @@
 #python file CRISP-DM deliverable 1
-'''
-Project: Fraud Detection Data Mining
-Deliverable 1: Code and Documentation
 
-This script follows the CRISP-DM framework, clearly documenting each step:
-1. Business Understanding
-2. Data Understanding
-3. Data Preparation
-4. Modeling
-5. Evaluation
-6. Deployment (placeholder)
-
-Each section includes comments on responsibilities and rationale.
-'''
 
 # 1. Business Understanding
 # Responsibility: Define the goal of identifying fraudulent credit card transactions.
