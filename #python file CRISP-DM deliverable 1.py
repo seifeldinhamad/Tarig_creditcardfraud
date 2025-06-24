@@ -24,7 +24,7 @@ import numpy as np       # Numerical operations
 
 # 2.1 Load the dataset
 # Responsibility: Read CSV file into DataFrame for exploration
-data_path = r"C:\Users\AZ\Downloads\balanced_credit_card_data.csv"
+data_path = "./data/balanced_credit_card_data.csv"
 data = pd.read_csv(data_path)
 print(f"Loaded data with {data.shape[0]} rows and {data.shape[1]} columns")
 
