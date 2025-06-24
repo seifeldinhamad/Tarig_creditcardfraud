@@ -11,7 +11,7 @@ This script follows the CRISP-DM framework, clearly documenting each step:
 5. Evaluation
 6. Deployment (placeholder)
 
-Each section includes comments on responsibilities and rationale.
+Each section includes comments on responsibiliti.\venv\Scripts\activate   # Windowses and rationale.
 '''
 
 # 1. Business Understanding
