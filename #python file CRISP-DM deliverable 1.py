@@ -1,6 +1,6 @@
 #python file CRISP-DM deliverable 1
 '''
-Project: Fraud Detection Data Mining
+Project: Fraud Detection (Agile Data Science)
 Deliverable 1: Code and Documentation
 
 This script follows the CRISP-DM framework, clearly documenting each step:
