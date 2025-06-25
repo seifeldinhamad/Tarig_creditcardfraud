@@ -10,6 +10,13 @@ from sklearn.metrics import confusion_matrix
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+# Performance monitoring
+from src.performance_monitor import PerformanceMonitor
+
+# Start monitoring
+monitor = PerformanceMonitor()
+monitor.start_monitoring()
+
 # Page configuration
 st.set_page_config(
     page_title="Fraud Detection Dashboard - Enhanced",
@@ -300,6 +307,11 @@ elif page == "Advanced Analysis":
         st.write("**Transaction Type Distribution:**")
         type_dist = df.groupby(['Type', 'Class']).size().unstack(fill_value=0)
         st.dataframe(type_dist)
+
+
+# Stop monitoring and display
+monitor.stop_monitoring()
+monitor.display_metrics()
 
 # Footer
 st.markdown("---")
