@@ -17,14 +17,14 @@ st.title("🚨 Real-Time Fraud Risk Scoring Dashboard")
 # --- Load Data ---
 @st.cache_data
 def load_data():
-    return pd.read_csv("balanced_credit_card_data.csv")
+    return pd.read_csv("data/balanced_credit_card_data.csv")
 
 data = load_data()
 
 # --- Load Model ---
 @st.cache_resource
 def load_model():
-    return joblib.load("fraud_model.pkl")
+    return joblib.load("models/fraud_model.pkl")
 
 model = load_model()
 

@@ -11,7 +11,7 @@ st.title("Credit Card Fraud Dashboard")
 st.header("MVD - Minimum Viable Dashboard")
 
 # Load Dataset
-DATA_PATH = "balanced_credit_card_data.csv"
+DATA_PATH = "data/balanced_credit_card_data.csv"
 
 @st.cache_data
 def load_data():
