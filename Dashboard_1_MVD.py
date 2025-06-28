@@ -1,6 +1,11 @@
 import streamlit as st
 import pandas as pd
 
+# --- Setup ---
+st.set_page_config(page_title="Minimum Viable Dashboard", layout="wide")
+
+
+
 # Title and Header
 st.title("Credit Card Fraud Dashboard")
 st.header("MVD - Minimum Viable Dashboard")
