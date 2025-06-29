@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import plotly.express as px
 
 # --- Setup ---
 st.set_page_config(page_title="Minimum Viable Dashboard", layout="wide")
@@ -70,7 +71,6 @@ st.metric("Fraud Rate", f"{filtered_data['TARGET'].mean() * 100:.2f}%" if not fi
 st.subheader("📄 Filtered Transactions")
 st.dataframe(filtered_data.head(10))
 
-import plotly.express as px
 
 # --------------------
 # 📊 Fraud Rate by Gender
